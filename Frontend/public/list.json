@@ -1,0 +1,46 @@
+[{
+    "id":1,
+    "name":"story book",
+    "title":"Hello",
+    "price":"free",
+    "description":"This is a story book",
+    "category":"fiction",
+    "image":"book.jpg"
+},
+{
+    "id":2,
+    "name":"story book",
+    "title":"Hello",
+    "price":"free",
+    "description":"This is a story book",
+    "category":"fiction",
+    "image":"book.jpg"
+},
+{
+    "id":3,
+    "name":"story book",
+    "title":"Hello",
+    "price":"free",
+    "description":"This is a story book",
+    "category":"fiction",
+    "image":"book.jpg"
+},
+{
+    "id":4,
+    "name":"story book",
+    "title":"Hello",
+    "price":"free",
+    "description":"This is a story book",
+    "category":"fiction",
+    "image":"book.jpg"
+},
+{
+    "id":5,
+    "name":"story book",
+    "title":"Hello",
+    "price":"free",
+    "description":"This is a story book",
+    "category":"fiction",
+    "image":"book.jpg"
+}
+]
