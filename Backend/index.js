@@ -2,11 +2,14 @@ import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
-
+import reviewRoute from "./route/review.route.js"
 import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 
 const app = express();
+// server.js
+// const reviewRoutes = require('./route/review.route.js');
+app.use('/api/reviews', reviewRoute);
 
 app.use(cors());
 app.use(express.json());
