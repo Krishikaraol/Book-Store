@@ -1,46 +1,44 @@
 [{
     "id":1,
-    "name":"story book",
-    "title":"Hello",
-    "price":"free",
+    "name":"Doglapan",
+    "title":"Ashneer Grover",
+    "price":"499",
     "description":"This is a story book",
-    "category":"fiction",
-    "image":"book.jpg"
+    "image":"https://www.bookswagon.com/productimages/mainimages/111/9780670097111.jpg"
 },
 {
     "id":2,
-    "name":"story book",
-    "title":"Hello",
-    "price":"free",
+    "name":"It Ends With Us",
+    "title":"Colleen Hoover",
+    "price":"495",
     "description":"This is a story book",
-    "category":"fiction",
-    "image":"book.jpg"
+    "image":"https://www.bookswagon.com/productimages/mainimages/368/9781501110368.jpg"
 },
 {
     "id":3,
-    "name":"story book",
-    "title":"Hello",
-    "price":"free",
+    "name":"Why Bharat Matters",
+    "title":"S.Jaishankar",
+    "price":"600",
     "description":"This is a story book",
-    "category":"fiction",
-    "image":"book.jpg"
+
+    "image":"https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/601/9789357027601.jpg"
 },
 {
     "id":4,
-    "name":"story book",
-    "title":"Hello",
-    "price":"free",
+    "name":"How to read a Book",
+    "title":"Mortimer",
+    "price":"360",
     "description":"This is a story book",
-    "category":"fiction",
-    "image":"book.jpg"
+
+    "image":"https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/094/9780671212094.jpg"
 },
 {
     "id":5,
-    "name":"story book",
-    "title":"Hello",
-    "price":"free",
+    "name":"Twisted Love",
+    "title":"Ana Huang",
+    "price":"2000",
     "description":"This is a story book",
-    "category":"fiction",
-    "image":"book.jpg"
+
+    "image":"https://www.bookswagon.com/productimages/mainimages/278/9781087939278.jpg"
 }
 ]

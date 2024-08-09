@@ -195,7 +195,7 @@ const ReviewForm = () => {
         ></textarea>
       </div>
 
-      <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">
+      <button type="submit" className="w-full bg-pink-500 text-white py-2 rounded hover:bg-pink-600">
         Submit Review
       </button>
     </form>

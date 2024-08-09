@@ -36,6 +36,7 @@ const Contact = () => {
   };
 
   return (
+  <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4 mt-10 pt-10">
     <div className="max-w-xl mx-auto p-8 bg-white shadow-lg rounded-lg">
       <h1 className="text-2xl font-bold mb-6">Contact Us</h1>
       
@@ -47,53 +48,54 @@ const Contact = () => {
 
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
-          <label className="block text-gray-700">Name</label>
+          <label className="block text-gray-700 font-medium">Name</label>
           <input
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full p-2 border border-gray-300 rounded mt-2"
+            className="w-full p-2 border border-gray-300 rounded mt-2 focus:outline-none focus:ring-2 focus:ring-pink-500"
             placeholder="Your name"
           />
         </div>
 
         <div className="mb-4">
-          <label className="block text-gray-700">Email</label>
+          <label className="block text-gray-700 font-medium">Email</label>
           <input
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full p-2 border border-gray-300 rounded mt-2"
+            className="w-full p-2 border border-gray-300 rounded mt-2 focus:outline-none focus:ring-2 focus:ring-pink-500"
             placeholder="Your email"
           />
         </div>
 
         <div className="mb-4">
-          <label className="block text-gray-700">Subject</label>
+          <label className="block text-gray-700 font-medium">Subject</label>
           <input
             type="text"
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
-            className="w-full p-2 border border-gray-300 rounded mt-2"
+            className="w-full p-2 border border-gray-300 rounded mt-2 focus:outline-none focus:ring-2 focus:ring-pink-500"
             placeholder="Subject"
           />
         </div>
 
         <div className="mb-4">
-          <label className="block text-gray-700">Message</label>
+          <label className="block text-gray-700 font-medium">Message</label>
           <textarea
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="w-full p-2 border border-gray-300 rounded mt-2"
+            className="w-full p-2 border border-gray-300 rounded mt-2 focus:outline-none focus:ring-2 focus:ring-pink-500"
             rows="4"
             placeholder="Your message"
           ></textarea>
         </div>
 
-        <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">
+        <button type="submit" className="w-full bg-pink-500 text-white py-2 rounded hover:bg-pink-600 transition duration-300">
           Send Message
         </button>
       </form>
+    </div>
     </div>
   );
 };
